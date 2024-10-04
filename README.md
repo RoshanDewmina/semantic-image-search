@@ -20,7 +20,7 @@
 ### Install Dependencies
 
 ```bash
-pnpm install
+npm install
 ```
 
 ### Add OpenAI API Key
@@ -63,8 +63,8 @@ POSTGRES_DATABASE=
 Push your schema changes:
 
 ```bash
-pnpm run db:generate
-pnpm run db:push
+npm run db:generate
+npm run db:push
 ```
 
 #### Vercel Blob
@@ -80,7 +80,7 @@ BLOB_READ_WRITE_TOKEN=
    Place `.jpg` images in the `images-to-index` directory. Run:
 
    ```bash
-   pnpm run upload
+   npm run upload
    ```
 
 2. **Generate Metadata**
@@ -88,7 +88,7 @@ BLOB_READ_WRITE_TOKEN=
    Run:
 
    ```bash
-   pnpm run generate-metadata
+   npm run generate-metadata
    ```
 
 3. **Embed Metadata and Save to Database**
@@ -96,7 +96,7 @@ BLOB_READ_WRITE_TOKEN=
    Run:
 
    ```bash
-   pnpm run embed-and-save
+   npm run embed-and-save
    ```
 
 ### Running the Application
@@ -104,7 +104,7 @@ BLOB_READ_WRITE_TOKEN=
 Start the development server:
 
 ```bash
-pnpm run dev
+npm run dev
 ```
 
-Your app should now be running at [http://localhost:3000](http://localhost:3000).
+The app should now be running at [http://localhost:3000](http://localhost:3000).

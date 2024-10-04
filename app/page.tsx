@@ -21,15 +21,7 @@ export default async function Home({
       </div>
       <div>
         <p>
-          This demo showcases how to use the{" "}
-          <Link
-            href="https://sdk.vercel.ai/docs"
-            className="text-blue-600 hover:underline"
-            target="_blank"
-          >
-            Vercel AI SDK
-          </Link>{" "}
-          to build semantic search applications. Try searching for something
+         Try searching for something
           semantically, like &quot;tasty food&quot;.
         </p>
       </div>

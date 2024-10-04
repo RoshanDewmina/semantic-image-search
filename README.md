@@ -2,8 +2,7 @@
 
 ## Features
 
-- **Next.js App Router**
-- **React Server Components (RSCs)**, Suspense, and Server Actions
+- **React Server Components**, Suspense, and Server Actions
 - **Vercel AI SDK** for multimodal prompting, generating & embedding image metadata, and streaming images from Server to Client
 - Support for **OpenAI** (default), **Gemini**, or custom AI chat models
 - **shadcn/ui**

@@ -1,5 +1,5 @@
 import { openai } from "@ai-sdk/openai";
-import { generateObject } from "ai";
+import { LanguageModelV1, generateObject } from "ai";
 import dotenv from "dotenv";
 import { z } from "zod";
 import { ImageMetadata, writeAllMetadataToFile } from "./utils";
@@ -21,7 +21,7 @@ async function main() {
       `Generating description for ${file} (${files.indexOf(file) + 1}/${files.length})`,
     );
     const result = await generateObject({
-      model: openai("gpt-4o"),
+      model: openai("gpt-4o") as LanguageModelV1,
       schema: z.object({
         image: z.object({
           title: z.string().describe("an artistic title for the image"),

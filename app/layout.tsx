@@ -6,7 +6,7 @@ import { TransitionProvider } from "@/lib/hooks/use-shared-transition";
 
 export const metadata: Metadata = {
   title: "Semantic Image Search Demo",
-  description: "Semantic Image Search Demo built with the Vercel AI SDK.",
+  description: "Semantic Image Search",
   metadataBase: process.env.VERCEL_URL
     ? new URL(`https://${process.env.VERCEL_URL}`)
     : undefined,

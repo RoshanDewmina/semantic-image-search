@@ -97,7 +97,6 @@ resource "aws_ecr_repository" "my_ecr_repo" {
 # Create ECS Cluster
 resource "aws_ecs_cluster" "my_ecs_cluster" {
   name = "nextjs-cluster"
-  capacity_providers = ["FARGATE"]
   tags = {
     Name = "nextjs-ecs-cluster"
   }
